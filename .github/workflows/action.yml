@@ -9,9 +9,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: npm install
-      - name: Vscode release plugin
-        uses: JCofman/vscodeaction@master
-        env:
-          PUBLISHER_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        with:
-          args: publish -p $PUBLISHER_TOKEN
