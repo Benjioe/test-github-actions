@@ -1,9 +1,10 @@
 {
     "name": "test-github-actions",
     "publisher": "FerrierBenjamin",
-    "displayName": "",
-    "description": "",
+    "displayName": "test github actions",
+    "description": "just a test",
     "version": "0.0.1",
+    "repository": "https://github.com/Benjioe/test-github-actions",
     "engines": {
         "vscode": "^1.45.0"
     },
