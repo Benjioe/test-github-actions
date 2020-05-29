@@ -2,6 +2,6 @@
     "say hello": {
       "scope": "javascript,html",
       "prefix": "say hello",
-      "body": "Hello World"
+      "body": "Hello World !"
     }
 }
